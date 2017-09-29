@@ -1,0 +1,10 @@
+<div style="height: 200px; border: solid black; margin-bottom: 20px">
+  <div *ngFor="let comment of data.comments;">{{comment}}</div>
+</div>
+
+<md-form-field class="full-width">
+  <input mdInput placeholder="Comment" [(ngModel)]="comment" floatPlaceholder="always" >
+</md-form-field>
+
+<button md-raised-button color="primary" (click)="onSubmit()">Submit</button>
+

@@ -1,0 +1,24 @@
+<div fxLayout="column" class="content">
+  <div *ngFor="let card of allCards; let i = index" [attr.data-index]="i">
+    <md-card class="example-card" style="margin-top: 30px">
+      <md-card-header>
+        <img md-card-avatar src="{{card.avatar}}">
+        <md-card-title>{{card.title}}</md-card-title>
+        <md-card-subtitle>{{card.subtitle}}</md-card-subtitle>
+      </md-card-header>
+      <img md-card-image src="{{card.content}}" alt="Nice photo">
+      <md-card-content>
+        <p>
+          {{card.description}}
+        </p>
+      </md-card-content>
+      <md-card-actions>
+        <button md-button>LIKE</button>
+        <button md-button>SHARE</button>
+        <button md-button (click)="openDialog(i)">COMMENTS</button>
+      </md-card-actions>
+    </md-card>
+  </div>
+</div>
+
+

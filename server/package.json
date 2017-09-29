@@ -1,0 +1,29 @@
+{
+  "name": "momento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsvali00/momento.git"
+  },
+  "author": "SVA",
+  "bugs": {
+    "url": "https://github.com/nsvali00/momento/issues"
+  },
+  "homepage": "https://github.com/nsvali00/momento#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.4.2",
+    "nodemon": "^1.11.0"
+  }
+}

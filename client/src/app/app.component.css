@@ -1,0 +1,11 @@
+.container{
+    padding: 5px;
+}
+
+.view{
+    margin-top: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    position: relative;
+    width: 100%;
+}

@@ -1,0 +1,10 @@
+<h1>Following</h1>
+<div *ngFor="let following of allFollowings">
+  <md-card class="example-card" style="margin-top: 30px">
+        <md-card-header>
+          <img md-card-avatar src="{{following.avatar}}">          
+          <md-card-title>{{following.name}}</md-card-title>
+          <md-card-subtitle>{{following.description}}</md-card-subtitle>
+        </md-card-header>
+  </md-card>
+</div>
